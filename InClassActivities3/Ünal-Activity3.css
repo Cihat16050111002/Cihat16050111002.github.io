@@ -4,33 +4,36 @@ CSS styles for Ultimate frisbee page
 */
 
 body {
-  color: #0233A4;
-  font: 12pt "Tahoma", "Arial", sans-serif;
+  color: honeydew;
+  font: 14pt "Comic Sans MS", "Arial", sans-serif;
+  font-weight: bolder;
   background-color: #FFC08C;
-  background-image: url("coffe-back.jpg")
+  background-image: url("coffe-back.jpg");
+  text-align: center;
 }
 
 #wrapper{
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+li{
+  list-style:square;
+  color: darkorange;
+  font-style: italic;
 }
 
 #header {
   color: #BF0000;
 }
 
-#news {
-
-}
-
-
-#main {
-
-}
-
 #main img{
-  border: 5px dot-dash brown;
+  border-style: solid;
+  border-color: chocolate;
+  border-width: 2px;
 }
-
 
 #footer {
   text-align: center;
@@ -39,17 +42,38 @@ body {
   color: black;
 }
 
-h2,h1 {
-  color: chartreuse;
+#menu {
+  color: chocolate;
+  font-family: "Arial Black";
+}
+
+#music {
+  color: slategray;
+  font-family: Verdana;
+}
+
+#location {
+  color: black;
+  font-weight: bold;
+  font-family: "Lucida Calligraphy";
 }
 
 .altrow
 {
-  border-style: dot-dash;
-  background-color: crimson;
+  border: 5px dot-dash brown;
+  background-color: darkgray;
+  color: darkslategray;
+  text-align: center;
 }
 
 table
 {
   border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:nth-child(odd)
+{
+  background-color: #FFC08C;
 }
