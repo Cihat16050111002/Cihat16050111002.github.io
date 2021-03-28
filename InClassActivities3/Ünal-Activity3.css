@@ -1,0 +1,55 @@
+/*
+Lab 3 CSS styles
+CSS styles for Ultimate frisbee page
+*/
+
+body {
+  color: #0233A4;
+  font: 12pt "Tahoma", "Arial", sans-serif;
+  background-color: #FFC08C;
+  background-image: url("coffe-back.jpg")
+}
+
+#wrapper{
+
+}
+
+#header {
+  color: #BF0000;
+}
+
+#news {
+
+}
+
+
+#main {
+
+}
+
+#main img{
+  border: 5px dot-dash brown;
+}
+
+
+#footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+h2,h1 {
+  color: chartreuse;
+}
+
+.altrow
+{
+  border-style: dot-dash;
+  background-color: crimson;
+}
+
+table
+{
+  border: 5px solid black;
+}
