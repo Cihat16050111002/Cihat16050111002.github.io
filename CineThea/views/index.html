@@ -9,44 +9,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
 
-<header class="home-header">
-    <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img class="pagelogo" src="../images/logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="movies.html">Movies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="series.html">Series</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="events.html">Events</a>
-                    </li>
-                </ul>
-            </div>
-            <button class="btn btn-outline-danger" onclick="location.href='login.html'" type="submit">Login</button>
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="pagelogo" src="../images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="series.html">Series</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="events.html">Events</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+        <button class="btn btn-outline-danger" onclick="location.href='login.html'" type="submit">Login</button>
+    </div>
+</nav>
 
+<header class="home-header">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-column justify-content-center">
+                    <h1 class="home-title">CineThea</h1>
+                    <h3 class="home-adv">" ENTER THE MAGICAL WORLD OF CineThea "</h3>
+
+                    <p class="home-p">Be aware of the latest news about Movies, Series, Theaters and anything about Cinema World!</p>
+                    <br>
+                    <p class="home-p">Lots of WatchParties are waiting for you !<br />Lets Join and Organize !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 button-container d-flex justify-content-center">
+                    <button class="home-button btn btn-primary btn-lg " onclick="location.href='login.html'">Login/Register</button>
+                    <button class="home-button btn btn-primary btn-lg" onclick="location.href='events.html'">Join/Organize<br />WatchParty</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
+
+
 
 <footer>
     <div class="jumbotron jumbotron-fluid p-4 mt-2 mb-0">

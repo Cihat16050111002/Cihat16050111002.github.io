@@ -9,6 +9,49 @@ nav.navbar{
     padding-top: 230px;
 }
 
+.home-title{
+    width: 67%;
+    margin: 0 auto 17px;
+    text-align: center;
+    font-size: 180px;
+    color: #ecede8;
+    backdrop-filter: blur(8px);
+    border-style: ridge;
+    border-color: #afa292;
+
+}
+
+.home-adv {
+    text-align: center;
+    color: #ecede8;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    background-color: #afa292;
+    width: 42%;
+    margin: 0 auto 35px;
+}
+
+.home-p {
+    font-size: 25px;
+    text-align: center;
+    background-color: #dc3545;
+    display: inline-block;
+    margin: auto;
+    padding: 0 7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.home-button {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 100px;
+}
+
 .movie-card img{
     width: 300px;
     padding: 2px;
@@ -29,7 +72,7 @@ nav.navbar{
     margin-left: 40px;
     margin-right: 15px;
     padding: 8px;
-    background-color: #f2d257;
+    background-color: #ffe067;
     border-radius: 50px;
     box-shadow: 0px 0px 20px 3px rgba(0,0,0,.3);
 }
