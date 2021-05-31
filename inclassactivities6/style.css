@@ -1,0 +1,30 @@
+button {
+    padding: 7px 15px;
+    margin-left: 510px;
+    margin-top: 10px;
+    background-color: #047904;
+    border-radius: 5px;
+    color: azure;
+}
+
+input, select {
+    margin: 0px 15px 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+.label_align {
+    margin-right: 18px;
+}
+
+label {
+    margin-left: 45px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: 100px;
+    color: #047904;
+    font-weight: bold;
+}

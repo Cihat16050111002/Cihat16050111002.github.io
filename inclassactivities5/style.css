@@ -1,0 +1,27 @@
+.fields {
+    margin: 30px 10px;
+}
+
+label {
+    float: left;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+button {
+    padding: 5px 15px;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+
+form {
+    width: 400px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-left: 80px;
+    font-family: Tahoma;
+}
+
