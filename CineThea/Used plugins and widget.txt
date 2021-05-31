@@ -1,6 +1,6 @@
 Jquery Plugin:
-- light gallery
-- Form validation
+- Light gallery
+- Form Validation
 - Owl Carusel
 
 Jquery Widget:

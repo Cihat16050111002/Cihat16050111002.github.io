@@ -276,6 +276,10 @@ button:focus {
   margin-top: 30px;
 }
 
+.mt-260 {
+  margin-top: 260px;
+}
+
 /* ScrollToTop */
 a.back-to-top {
   display: none;
@@ -2148,7 +2152,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 #main-slide .carousel-item.active .carousel-caption {
   opacity: 1;
   transition: opacity 100ms ease 0s;
-  z-index: 1;
+  z-index: 2;
 }
 
 #main-slide .carousel-caption {
@@ -2218,4 +2222,39 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   border-color: #fff;
+}
+
+#main-slide .carousel-caption.s3 {
+  left: 6.5% !important;
+}
+
+#main-slide .carousel-caption.s3 h4 {
+  font-size: 38px !important;
+}
+
+#main-slide .carousel-caption.s3 p a {
+  margin-top: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+.carousel-indicators li {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgba(255,255,255,.5);
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
 }
