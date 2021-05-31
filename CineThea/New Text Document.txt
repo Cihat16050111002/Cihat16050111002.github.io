@@ -1,0 +1,7 @@
+Jquery Plugin:
+- light gallery
+- Form validation
+- Owl Carusel
+
+Jquery Widget:
+- Datetimepicker

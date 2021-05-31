@@ -1,0 +1,25 @@
+.movies-header{
+    background-image: url("../../images/movie.jpg");
+    max-height: 110px;
+    overflow: visible;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.movies-container{
+    background-image: linear-gradient(#1e1d1f 0%, #f6fbed 59.08%);
+    padding: 100px 0px;
+}
+
+.best-netflix-movies-container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.first-title-movies{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
