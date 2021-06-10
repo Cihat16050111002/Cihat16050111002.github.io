@@ -507,11 +507,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding-right: 0;
 }
 
-#page-banner-area {
-  background: url(../img/background/banner.jpg) no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-}
+/*#page-banner-area {*/
+/*  background: url(../img/background/banner.jpg) no-repeat;*/
+/*  background-position: 50% 50%;*/
+/*  background-size: cover;*/
+/*}*/
 
 .page-banner {
   position: relative;
@@ -922,6 +922,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #E91E63;
   overflow: hidden;
   position: relative;
+  margin-bottom: 60px;
   /*
     &:before{
     	content: '';
@@ -1995,12 +1996,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Pricing Ticket */
-#pricing {
-  background: url(../img/background/bg-pricing.jpg);
-  background-attachment: fixed;
-  overflow: hidden;
-  position: relative;
-}
+/*#pricing {*/
+/*  background: url(../img/background/bg-pricing.jpg);*/
+/*  background-attachment: fixed;*/
+/*  overflow: hidden;*/
+/*  position: relative;*/
+/*}*/
 
 #pricing .section-title-header .section-title {
   color: #fff;
@@ -2257,4 +2258,64 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 12px;
   height: 12px;
   border-radius: 50%;
+}
+
+.upcoming-events {
+  padding: 40px 50px;
+  margin: 0 auto 30px;
+  /*border: 1px solid black;*/
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.events-info-container {
+  /*border: 1px solid black;*/
+  width: 80%;
+}
+
+#nav_list li {
+  /*border: 1px solid black;*/
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+#nav_list li span {
+  text-decoration: none;
+}
+
+#nav_list span {
+  cursor: pointer;
+}
+
+.events-info {
+  display: flex;
+  /*border: 1px solid black;*/
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.event-title {
+  text-align: center;
+}
+
+.event-img {
+  float: right;
+  margin-left: 10px;
+  height: auto;
+  max-width: 300px;
+}
+
+.event-exp {
+  display: inline;
+  float: left;
+  /*width: 50%;*/
+  margin-left: 20px;
+}
+
+.event-date {
+  text-align: center;
 }
