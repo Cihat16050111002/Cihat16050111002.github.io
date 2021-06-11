@@ -13,7 +13,7 @@
         /* ==========================================================================
        countdown timer
        ========================================================================== */
-        $('#clock').countdown('2021/06/15',function(event){
+        $('#clock').countdown('2021/07/15',function(event){
             var $this=jQuery(this).html(event.strftime(''
                 +'<div class="time-entry days"><span>%D</span> Days</div> '
                 +'<div class="time-entry hours"><span>%H</span> Hours</div> '

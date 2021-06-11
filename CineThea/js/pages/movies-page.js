@@ -3,10 +3,10 @@ var ourRequest = new XMLHttpRequest();
 
 $(document).ready(function(){
 
-    $('#searchForm').on('submit', (e) => {
+    $('#searchText').keyup(function () {
         let searchText = $('#searchText').val();
         getMovies(searchText);
-        e.preventDefault();
+        // e.preventDefault();
     });
 
 
