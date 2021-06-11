@@ -2292,10 +2292,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .events-info {
-  display: flex;
-  /*border: 1px solid black;*/
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 25px auto 20px;
 }
 
 .event-title {
@@ -2310,12 +2308,26 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .event-exp {
-  display: inline;
   float: left;
   /*width: 50%;*/
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .event-date {
+  margin-top: 20px;
   text-align: center;
+  font-family: cursive;
+  font-size: large;
+  color: #e91e63;
+}
+
+.event-btn {
+  padding: 12px 15px;
+  margin: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  text-decoration: none;
+  color: #E91E63;
+  font-weight: bold;
+  border-radius: 5px;
 }

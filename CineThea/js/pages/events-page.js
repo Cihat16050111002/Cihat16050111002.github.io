@@ -31,18 +31,17 @@
         var json_path = '../json_files/' + title + '.json';
 
         $.getJSON(json_path, function (data) {
-            // Month and Speaker information
-            // var date = data.events[0].month;
-            // var speaker = data.speakers[0].speaker;
-            // $("main h2").html(month + "<br>" + speaker);
+            // Date information
+            var date = data.events[0].date;
+            $(".event-date").html("Date:  " + date);
 
             // İmage
             var image = data.events[0].image;
-            $(".event-img").attr("src",image);
 
             // Text
             var text = data.events[0].text;
-            $(".event-exp").html(text);
+
+            $(".event-exp").html('<img class="event-img" src="' + image + '" alt="" />' + text);
 
             // Title
             var title = data.events[0].title;
