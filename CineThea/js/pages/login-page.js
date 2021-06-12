@@ -4,7 +4,6 @@ $(document).ready(function () {
 
     $('.form-group .login_btn').click(() => {
         if(valid[0].validity.valid && valid[1].validity.valid) {
-            console.log("if")
             Swal.fire({
                 title: 'Successfull',
                 text: 'Logged In Successfully',

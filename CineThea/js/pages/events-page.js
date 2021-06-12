@@ -26,6 +26,7 @@
     $('#datepicker').datetimepicker();
 
 
+    // AJAX Operation - Read data from Json Files
     $("#nav_list span").click(function() {
         const title = $(this).attr("title");
         var json_path = '../json_files/' + title + '.json';
