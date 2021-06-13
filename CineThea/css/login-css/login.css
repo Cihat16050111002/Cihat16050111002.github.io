@@ -106,3 +106,7 @@ input:focus{
     text-align: right;
     font-weight: bold;
 }
+
+.controls {
+    width: 86%;
+}

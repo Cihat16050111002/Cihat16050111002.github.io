@@ -276,8 +276,16 @@ button:focus {
   margin-top: 30px;
 }
 
+.mt-150 {
+  margin-top: 150px;
+}
+
 .mt-260 {
   margin-top: 260px;
+}
+
+.mt-330 {
+  margin-top: 330px;
 }
 
 /* ScrollToTop */
@@ -1724,101 +1732,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   outline: 0;
 }
 
-/* Footer Area Start */
-.footer-area {
-  background: #222222;
-}
-
-.footer-area h3 {
-  font-size: 20px;
-  color: #fff;
-  font-weight: 700;
-  padding-bottom: 10px;
-  letter-spacing: 0.5px;
-}
-
-.footer-area p {
-  font-size: 14px;
-  color: #fff;
-  line-height: 20px;
-  margin: 0;
-  padding-right: 50px;
-}
-
-.footer-area ul li a {
-  color: #fff;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-.footer-area ul li a:hover {
-  color: #E91E63;
-}
-
-.footer-area .footer-social li {
-  display: inline-block;
-}
-
-.footer-area .footer-social li a {
-  color: #000;
-  background: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  display: block;
-  text-align: center;
-  border-radius: 4px;
-  font-size: 15px;
-  margin-right: 5px;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-}
-
-.footer-area .footer-social li a:hover {
-  color: #fff;
-}
-
-.footer-area .footer-social li .facebook:hover {
-  background: #3B5998;
-}
-
-.footer-area .footer-social li .twitter:hover {
-  background: #00aced;
-}
-
-.footer-area .footer-social li .linkedin:hover {
-  background: #0073b1;
-}
-
-.footer-area .footer-social li .foursqare:hover {
-  background: #25a0ca;
-}
-
-.footer-area .footer-social li .google-plus:hover {
-  background: #d34836;
-}
-
-.footer-area .footer-text p {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #fff;
-}
-
-.footer-area .footer-text p a {
-  color: #E91E63;
-}
-
-.footer-area .footer-text .nav-inline .nav-link {
-  padding: 11px 7px;
-  color: #888;
-}
-
-.footer-area .footer-text .nav-inline .nav-link:hover {
-  color: #E91E63;
-}
-
 .image-list {
   padding: 0;
   margin: 0;
@@ -2227,6 +2140,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #main-slide .carousel-caption.s3 {
   left: 6.5% !important;
+  /*margin-top: 330px;*/
 }
 
 #main-slide .carousel-caption.s3 h4 {
@@ -2235,6 +2149,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #main-slide .carousel-caption.s3 p a {
   margin-top: 0;
+}
+
+#main-slide .carousel-caption.s1 a {
+  padding: 17px;
+  margin-top: 155px;
+  font-size: 18px;
 }
 
 .carousel-indicators .active {
