@@ -45,6 +45,10 @@
 
             $(".event-exp").html('<img class="event-img" src="' + image + '" alt="" />' + text);
 
+            var url = data.events[0].url;
+            $(".events-info a").attr("href", url);
+
+
             // Title
             var title = data.events[0].title;
             $(".event-title").html(title);

@@ -1,4 +1,4 @@
-USED PLUGINS ON THIS PROJECT
+USED PLUGINS IN THIS PROJECT
 ----------------------------
 
 Jquery Plugin:
