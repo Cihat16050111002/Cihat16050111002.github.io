@@ -52,17 +52,6 @@ nav.navbar{
     margin-top: 100px;
 }
 
-/*unused*/
-/*.movie-card img{*/
-/*    width: 300px;*/
-/*    padding: 2px;*/
-/*    background: #ffffff;*/
-/*}*/
-
-/*.movie-card h3 {*/
-/*    color: #ecd1a3;*/
-/*}*/
-
 .card{
     background: transparent !important;
 }
@@ -138,7 +127,6 @@ footer {
 }
 
 .events-header{
-    background-image: url("../images/events_back.jpg");
     max-height: 110px;
     overflow: visible;
     height: 1000px;

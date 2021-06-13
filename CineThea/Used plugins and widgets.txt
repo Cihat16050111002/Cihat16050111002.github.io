@@ -1,0 +1,18 @@
+USED PLUGINS ON THIS PROJECT
+----------------------------
+
+Jquery Plugin:
+- Light gallery
+- Form Validation
+- Owl Carusel
+*****************
+
+Jquery Widget:
+- Datetimepicker
+*****************
+
+For AJAX:
+
+- I created a bunch of JSON files in json_files directory, and used in events page. The point is: Whenever user clicked to event title, the informations about that event will be shown to user such as image, title and explanation of events.
+
+- Secondly, I send a request to an API, and content will change according to input which will be taken from user. I used this AJAX type in movies page. Thanks to this section, user can search a movie with a word.

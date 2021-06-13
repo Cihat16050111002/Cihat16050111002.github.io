@@ -1,3 +1,4 @@
+
 (function($) {
     "use strict";
 
@@ -51,15 +52,23 @@
     })
 
 
-    $('#form-submit').click(() => {
-        Swal.fire({
-            title: 'Successfull',
-            text: 'Logged In Successfully',
-            icon: 'success',
-            confirmButtonText: 'Confirm'
-        }).then(() => window.location.reload());
+    $(document).ready(function () {
+        let inputs = $("#contactForm input");
 
-    });
+        let info = $("#contactForm textarea");
+
+        $('#form-submit').click(() => {
+            if (inputs[0].validity.valid && inputs[1].validity.valid && inputs[2].validity.valid && inputs[3].validity.valid && info[0].validity.valid){
+                Swal.fire({
+                    title: 'Successfull',
+                    text: 'Logged In Successfully',
+                    icon: 'success',
+                    confirmButtonText: 'Confirm'
+                }).then(() => window.location.reload());
+            }
+        });
+    })
+
 
 }(jQuery));
 
